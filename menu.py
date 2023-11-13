@@ -1,5 +1,5 @@
 import requests
-
+import os
 def run_script(url):
     try:
         response = requests.get(url)
@@ -22,7 +22,7 @@ def main():
         choice = int(input("Enter your choice (1-5): "))
         if 1 <= choice <= 5:
             script_urls = [
-                "https://raw.githubusercontent.com/B-Panther/Useragent-/main/FBANUA.py",
+                os.system("python FBANUA.py"),
                 "https://raw.githubusercontent.com/your_username/repository/IPUA.py",
                 "https://raw.githubusercontent.com/your_username/repository/dalvik.py",
                 "https://raw.githubusercontent.com/your_username/repository/dalorc.py",
