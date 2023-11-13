@@ -22,11 +22,11 @@ def main():
         choice = int(input("Enter your choice (1-5): "))
         if 1 <= choice <= 5:
             script_urls = [
-                "https://raw.githubusercontent.com/your_username/repository/script1.py",
-                "https://raw.githubusercontent.com/your_username/repository/script2.py",
-                "https://raw.githubusercontent.com/your_username/repository/script3.py",
-                "https://raw.githubusercontent.com/your_username/repository/script4.py",
-                "https://raw.githubusercontent.com/your_username/repository/script5.py",
+                "https://raw.githubusercontent.com/B-Panther/Useragent-/main/FBANUA.py",
+                "https://raw.githubusercontent.com/your_username/repository/IPUA.py",
+                "https://raw.githubusercontent.com/your_username/repository/dalvik.py",
+                "https://raw.githubusercontent.com/your_username/repository/dalorc.py",
+                "https://raw.githubusercontent.com/your_username/repository/orca_andua.py",
             ]
             run_script(script_urls[choice - 1])
         else:
